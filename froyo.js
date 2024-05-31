@@ -8,7 +8,7 @@ console.log(flavorArray);
 
 let obj = {};
 
-const flavorCount = (obj) => {
+const flavorCount = (flavorArray) => {
   //const returns a value but not what kind of value is being returned
   for (let i = 0; i < flavorArray.length; i++) {
     // incrementing through elements in array
